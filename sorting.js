@@ -16,7 +16,7 @@ function enterSizeOfArray() {
 }
 
 function enterNumbersOfArray() {
-	arr = prompt("Enter your numbers").split(" ");
+	arr = prompt("Enter " + n + " numbers separated by spaces").split(" ");
 	arr = arr.map(Number);
 	var checkArray = true;
 	for (i=0; i<arr.length; i++) {
@@ -122,7 +122,7 @@ function sortingArray() {
 			}
 			i = big;
 			if (arr[small+1] == undefined) {
-				for (i; i<=arr[small]; i++) {
+				for (i; i<=small; i++) {
 					arr1[i] = arr[i];
 				}
 			}

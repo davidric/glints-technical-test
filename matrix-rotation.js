@@ -29,7 +29,7 @@ var c = [];
 enterMatrix();
 function enterMatrix() {
 	for (i=0; i<m; i++) {
-		a[i] = prompt('Enter value in row ' + (i+1)).split(' ').map(Number);
+		a[i] = prompt('Enter value in row ' + (i+1) + ' (input ' + n + ' column separated by spaces)').split(' ').map(Number);
 		if (a[i].length != n) {
 			alert("Number of column should be " + n + "!");
 			enterMatrix();

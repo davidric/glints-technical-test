@@ -2,6 +2,7 @@
 
 ## How to open the code:
 
-1. Open index.html on the browser.
-2. The input will be take from browser alert.
-3. Use console on browser developer tools to see the result.
+1. Open console on browser developer tools.
+2. Open index.html.
+3. The input will be take from browser alert.
+4. The result will be print on console web browser.
